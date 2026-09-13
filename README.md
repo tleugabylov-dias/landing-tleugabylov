@@ -1,6 +1,4 @@
 # Dias Tleugabylov — Designer Portfolio
-A single-page designer portfolio created for the Week 2 assignment on HTML5, semantic markup, forms, accessibility, and SEO.
-
 **Author:** Dias Tleugabylov  
 **Topic:** Designer portfolio — work, services, and contact.  
 **Technologies:** HTML5 and CSS3.
