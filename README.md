@@ -1,5 +1,5 @@
 # Designer Portfolio
-Dias Tleugabylov
+Dias Tleugabylov IT1-2305
 ## Topic
 A designer portfolio with work, services, and contacts.
 ## Website
