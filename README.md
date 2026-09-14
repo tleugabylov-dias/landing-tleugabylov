@@ -1,9 +1,6 @@
-# Designer Portfolio
-Dias Tleugabylov IT1-2305
-## Topic
-A designer portfolio with work, services, and contacts.
-## Website
-https://tleugabylov-dias.github.io/landing-tleugabylov/
+# Designer Portfolio (Dias Tleugabylov IT1-2305)
+## Topic : A designer portfolio with work, services, and contacts.
+## Website : https://tleugabylov-dias.github.io/landing-tleugabylov/
 ## Features:
 1. Semantic HTML: header, nav, main, section, article, and footer.
 2. Work, About, Services, and Contact sections.
