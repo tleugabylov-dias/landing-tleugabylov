@@ -1,11 +1,11 @@
 :root {
-  color-scheme: dark;
-  --bg: #151613;
-  --surface: #20211d;
-  --text: #f1f1e9;
-  --muted: #a5a79b;
-  --line: #393b32;
-  --lime: #d9f878;
+  color-scheme: light;
+  --bg: #f8faff;
+  --surface: #eef3fb;
+  --text: #17243b;
+  --muted: #56647a;
+  --line: #d4ddea;
+  --accent: #2459d3;
   --width: 1280px
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 ::selection {
-  background: var(--lime);
+  background: var(--accent);
   color: var(--bg)
 }
 
@@ -42,7 +42,7 @@ a,button,input,textarea,summary {
 }
 
 a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible {
-  outline: 3px solid #a57cff;
+  outline: 3px solid #985000;
   outline-offset: 6px
 }
 
@@ -85,7 +85,7 @@ h3 {
 }
 
 .accent {
-  color: var(--lime)
+  color: var(--accent)
 }
 
 .skip-link {
@@ -93,7 +93,7 @@ h3 {
   top: -100px;
   left: 20px;
   z-index: 10;
-  background: var(--lime);
+  background: var(--accent);
   color: var(--bg);
   padding: 10px 18px
 }
@@ -126,24 +126,24 @@ h3 {
 }
 
 .site-header nav a {
-  color: #c2c3b9;
+  color: #47566f;
   transition: color .2s
 }
 
 .site-header nav a:hover {
-  color: var(--lime)
+  color: var(--accent)
 }
 
 .header-contact {
   font-size: .875rem;
-  border: 1px solid #676b5b;
+  border: 1px solid #9aaac2;
   padding: 10px 18px;
   border-radius: 30px;
   transition: background .2s,color .2s
 }
 
 .header-contact:hover {
-  background: var(--lime);
+  background: var(--accent);
   color: var(--bg)
 }
 
@@ -184,7 +184,7 @@ h3 {
 }
 
 .hero-description {
-  color: #b9bbae;
+  color: #56647a;
   font-size: .9375rem;
   line-height: 1.7;
   margin-top: 28px
@@ -203,13 +203,13 @@ h3 {
 }
 
 .button-lime {
-  background: var(--lime);
+  background: var(--accent);
   color: var(--bg);
   margin-top: 28px
 }
 
 .button-lime:hover {
-  background: #e8ffa3;
+  background: #1745ae;
   transform: translateY(-3px)
 }
 
@@ -220,12 +220,12 @@ h3 {
 
 .hero-art {
   position: relative;
-  background: #d9ef90;
-  color: #172014;
+  background: #edf3ff;
+  color: #17243b;
   transform: rotate(3deg);
   border-radius: 12px;
   margin: 12px 12px 30px 0;
-  box-shadow: 0 24px 70px #0004
+  box-shadow: 0 24px 70px #18366826
 }
 
 .hero-art img {
@@ -255,8 +255,8 @@ h3 {
   right: -18px;
   bottom: -26px;
   padding: 20px 18px;
-  background: #a797e8;
-  color: #1c142d;
+  background: #dce8ff;
+  color: #173c89;
   border: 5px solid var(--bg);
   font-size: 1.25rem;
   line-height: .95;
@@ -278,10 +278,10 @@ h3 {
 }
 
 .discipline-strip {
-  background: var(--lime);
+  background: var(--accent);
   color: var(--bg);
   overflow: hidden;
-  border-block: 1px solid var(--lime)
+  border-block: 1px solid var(--accent)
 }
 
 .discipline-strip>div {
@@ -332,7 +332,7 @@ h3 {
 }
 
 .work-count {
-  color: var(--lime);
+  color: var(--accent);
   font-size: .9375rem;
   padding-top: 8px
 }
@@ -364,7 +364,7 @@ h3 {
   position: absolute;
   bottom: 18px;
   left: 18px;
-  background: #151613d9;
+  background: #17243bed;
   border: 1px solid #ffffff30;
   border-radius: 20px;
   padding: 5px 12px;
@@ -415,7 +415,7 @@ h3 {
 }
 
 .project-details summary>span {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 1.2rem;
   line-height: 1
 }
@@ -430,19 +430,19 @@ h3 {
 }
 
 .web-visual {
-  background: #b0a0dd;
+  background: #c7d9f5;
   display: grid;
   place-items: center;
   padding: 30px 40px
 }
 
 .mini-browser {
-  background: #efede6;
-  color: #25241f;
+  background: #ffffff;
+  color: #17243b;
   width: 100%;
   transform: rotate(-5deg);
-  box-shadow: 0 16px 36px #32274b40;
-  border: 1px solid #25241f2b;
+  box-shadow: 0 16px 36px #18366826;
+  border: 1px solid #17243b2b;
   border-radius: 5px;
   overflow: hidden
 }
@@ -451,11 +451,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  background: #e5e2d8;
-  border-bottom: 1px solid #d4d1c8;
+  background: #edf2fa;
+  border-bottom: 1px solid #d4ddea;
   padding: 8px 12px;
   font-size: .5rem;
-  color: #6b6860
+  color: #56647a
 }
 
 .browser-bar>span:first-child {
@@ -490,7 +490,7 @@ h3 {
 }
 
 .mini-heading em {
-  color: #6c549b;
+  color: #2459d3;
   font-style: normal
 }
 
@@ -505,7 +505,7 @@ h3 {
 
 .mini-bottom>span:last-child {
   font-size: 2.5rem;
-  color: #6c549b
+  color: #2459d3
 }
 
 
@@ -531,7 +531,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--lime);
+  background: var(--accent);
   color: var(--bg);
   width: 145px;
   height: 145px;
@@ -570,11 +570,11 @@ h3 {
 }
 
 .statement>span {
-  color: var(--lime)
+  color: var(--accent)
 }
 
 .about-copy>p:not(.statement) {
-  color: #b6b8ac;
+  color: #47566f;
   font-size: .9375rem;
   margin-bottom: 18px;
   max-width: 510px
@@ -590,9 +590,9 @@ h3 {
 .skill-tags>span {
   font-size: .75rem;
   padding: 6px 13px;
-  border: 1px solid #4d5142;
+  border: 1px solid #bdcce2;
   border-radius: 30px;
-  color: #d5d7ca
+  color: #354b70
 }
 
 .services h2 {
@@ -630,14 +630,14 @@ h3 {
 .service-icon {
   font-size: 2.5rem;
   line-height: 1;
-  color: var(--lime);
+  color: var(--accent);
   text-align: right
 }
 
 
 .contact-section {
-  background: var(--lime);
-  color: var(--bg);
+  background: #e6efff;
+  color: var(--text);
   padding: 76px 0
 }
 
@@ -648,7 +648,7 @@ h3 {
 }
 
 .contact-section .kicker {
-  color: #566334
+  color: #4e617f
 }
 
 .contact-copy h2 {
@@ -667,7 +667,7 @@ h3 {
   font-size: .875rem;
   line-height: 1.7;
   margin-top: 25px;
-  color: #43512b
+  color: #405574
 }
 
 .github-link {
@@ -675,12 +675,12 @@ h3 {
   gap: 24px;
   font-size: .875rem;
   margin-top: 25px;
-  border-bottom: 1px solid #526137;
+  border-bottom: 1px solid #647ea6;
   padding-bottom: 4px
 }
 
 .github-link:hover {
-  border-color: var(--bg)
+  border-color: var(--accent)
 }
 
 .contact-form {
@@ -699,42 +699,42 @@ h3 {
 }
 
 .field label>span {
-  color: #4b6123
+  color: #2459d3
 }
 
 .field input,.field textarea {
   width: 100%;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #8da74e;
+  border-bottom: 1px solid #869bb9;
   border-radius: 0;
-  color: var(--bg);
+  color: var(--text);
   padding: 9px 0;
   resize: vertical;
   font-size: 1rem
 }
 
 .field input::placeholder,.field textarea::placeholder {
-  color: #647743;
+  color: #526885;
   opacity: 1
 }
 
 .field input:focus,.field textarea:focus {
-  border-bottom-color: var(--bg)
+  border-bottom-color: var(--accent)
 }
 
 .form-note {
   font-size: .75rem;
   line-height: 1.5;
-  color: #405124;
+  color: #405574;
   margin-bottom: 20px
 }
 
 .form-button {
   width: 100%;
   border: 0;
-  background: #28331d;
-  color: #e1efbb;
+  background: #d0dcef;
+  color: #425777;
   cursor: not-allowed;
   text-align: left
 }
